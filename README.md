@@ -1245,7 +1245,7 @@ js操作获取和设置cookie
     		cookieText += '; expires=' + expires;
     	}
     	if (path) {
-    		cookieText += '; expires=' + expires;
+    		cookieText += '; path=' + path;
     	}
     	if (domain) {
     		cookieText += '; domain=' + domain;
